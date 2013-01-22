@@ -1,0 +1,328 @@
+/*
+Theme Name: Scimpr blog theme
+Theme URI: http://blog.scimpr.com/
+Description: This is my sample theme. no.2
+
+*/
+body{
+    padding-top: 80px;
+}
+
+#container {
+    
+    background-color: #fefefe;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 60px;
+    background-color: #222222;
+}
+
+#header h1{     
+    padding: 10px;
+    color: white;
+}
+#header h1 a{     
+    text-decoration: none;
+    color: white;
+}
+
+#header p{     
+    padding-left: 30px;
+    color: white;
+}
+#search-form{
+    display: inline;
+    float: right;
+    margin: -50px 20px 0 0;
+　　clear: both;
+
+}
+#main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.post{
+    height: 340px;
+}
+.post h3{
+    border-bottom:solid 1px #999999;    
+    padding-bottom: 15px;
+    word-break: break-all;
+}
+.post .post-category{
+    text-align: right;
+    margin: -10px 10px 10px 0;
+}
+.post .post-category a{
+    font-size: smaller;
+    color: white;
+}
+    
+.post p{
+    padding-top:15px;
+}
+img.attachment-thumbnail{
+    margin:3px;
+}
+h3#noresule{
+
+}
+.more{
+    font-size: smaller;
+    text-align: right;
+}
+p.more{
+    padding-top:20px;
+}
+
+.single-post{
+    width: 720px;
+    margin: 0;
+}
+.single-post-title{
+    clear:both;
+    width: 720px;
+    height: auto;
+    display:block;
+}
+.single-post-labels{
+    clear:both;
+    width: 720px;
+    height: auto;
+    display:block;
+}
+.single-post h1{
+    border-bottom: solid 2px #333333;
+    padding-bottom: 20px;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.single-post-category{
+    clear:both;
+}
+.single-post-tags{
+    margin-bottom: 22px;
+}
+.single-post .post-category{
+    text-align: right;
+}
+.single-post .post-category a{
+    color: white;
+}
+.single-post .post-tags{
+    text-align: right;
+}
+.single-post .post-tags a{
+    color: white;
+}
+.single-post .post-datetime{
+    text-align: right;
+    margin: 2px 10px 10px 0;
+
+    color: #999999;
+    letter-spacing: normal;
+}
+#single-post-content{
+    width: 720px;
+    margin-bottom: 100px;
+}
+#single-post-content > p, li{
+
+}
+.single-post h2{
+   margin-top: 15px; 
+   border-top: solid 1px black; 
+   border-bottom: solid 1px black; 
+   border-left: solid 15px black;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 5px;
+   margin-top: 60px;
+   margin-bottom: 20px;
+    
+}
+.single-post h3{
+   border-bottom:solid 1px #999999;    
+   border-left: solid 30px #999999;
+   padding-left: 5px;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+#single-post p, li{
+
+    padding: 6px 0;
+    padding-left: 15px;
+    letter-spacing: 0.2em;
+    font-size: 16px;
+}
+
+.control{
+    padding: 20px;
+    margin: 0;
+}
+#control{
+    width: 190px;
+    height: 240px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 280px;
+    right: 60px;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+    white-space: pre;           /* CSS 2.0 */
+    white-space: pre-wrap;      /* CSS 2.1 */
+    white-space: pre-line;      /* CSS 3.0 */
+    white-space: -pre-wrap;     /* Opera 4-6 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap;  /* HP Printers */
+    word-wrap: break-word;      /* IE 5+ */
+    
+    z-index: 10000;
+}
+#control ol{
+    margin-top: -60px;    
+    padding-top:20px;
+    padding-left:0;
+}
+#control li{
+    padding: 0;
+    font-size: 12px;
+}
+#control a{
+    color: white;
+    text-decoration: none;
+}
+#control-space{
+    width: 300px;
+    height: 240px;
+}
+.anchor-p{
+    padding-top: 200px;
+    margin-top: -200px;
+}
+
+
+ul.pager{
+    margin-left: 20px;
+}
+#comments{
+    width: 720px;
+    border: solid 1px #eeeeee;
+    padding: 18px;
+    margin: 20px 0;
+}
+h3#reply-title{
+    margin: 0;
+    padding-left: 10px;
+}
+#comments textarea{
+    width: 600px;
+}
+#comments ul{
+}
+#comments li.compost{
+    list-style-type: none;
+    border-bottom: dotted 1px #eeeeee;
+    margin-bottom: 20px;
+}
+#comments p.cominfo{
+    text-align: right;
+}
+
+#trackback-url{
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+#related{
+    border: solid 1px #eeeeee;
+    margin-top: 20px;
+}
+#related h3{
+    margin: 0;
+    padding-left: 10px;
+}
+#related ol{
+    padding:18px;
+}
+
+span.oldpage{
+    float: left;
+}
+span.newpage{
+    float: right;
+}
+
+
+#footer p.copyright {
+    text-align: center;
+    padding:20px;
+}
+#footer .foot-sidebar{
+    width: 960px;
+    margin: 0 auto;
+ }
+#footer .foot-sidebar .widget{
+    background-color: #113360;
+    color: white;
+    padding: 16px;
+    
+}
+#footer .foot-sidebar ul {
+    margin:0 auto;
+    padding:0;
+}
+#footer .foot-sidebar h2 {
+    border-bottom: solid 1px white;
+    padding: 5px;
+    margin: 0 0 20px;
+}
+#footer .foot-sidebar li {
+    list-style-type: none;
+
+}
+#footer .foot-sidebar li a{
+    color: #ffffff;
+}
+
+#footer .foot-sidebar li li{
+    margin-bottom:4px;
+}
+
+#footer #wp-calendar{
+    font-size: large;
+    width: 100%;
+}
+#footer div#calendar_wrap td,#footer div#calendar_wrap th{
+    text-align: center;
+}
+#footer div#calendar_wrap td a{
+    color: #99ffff;
+}
+#footer .widget_calendar h2{
+    display: none;
+}
+#footer #wp-calendar caption{
+    font-weight: bold;
+    text-align: left;
+    border-bottom: solid 1px #ffffff;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+#footer .cat-item p, li{
+    font-size:13px;
+    padding: 0 13px;
+}
